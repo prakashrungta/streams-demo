@@ -1,19 +1,16 @@
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class Methods {
+public class StreamsBasics2 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         //filter(Predicate ) // predicate is true then only filter
         //boolean value function
         //recommended is lambda
         //e-> true
         //e->{
-            // return true}
-
+        // return true}
 
 
         //map element pai kaam hoga
@@ -23,12 +20,12 @@ public class Methods {
         //map(function)
 
 
-        List<String> names = List.of("Aman","Ankit","Abhinav", "Durgesh");
+        List<String> names = List.of("Aman", "Ankit", "Abhinav", "Durgesh");
         List<String> newNames = names.stream().filter(e -> e.startsWith("A")).collect(Collectors.toList());
         System.out.println("args = " + newNames);
 
         names.stream().forEach(
-                e->{
+                e -> {
                     System.out.println(e);
                 }
         );
@@ -36,11 +33,10 @@ public class Methods {
         newNames.stream().forEach(System.out::println);
 
 
-
         //using map
-        List<Integer> integerList = List.of(7,1, 2, 3, 4, 5, 6);
+        List<Integer> integerList = List.of(7, 1, 2, 3, 4, 5, 6);
         List<Integer> integerSquaredList = integerList.stream().map(i -> i * i).collect(Collectors.toList());
-        System.out.println(integerSquaredList);
+        System.out.println(" integerSquaredList " + integerSquaredList);
 
 
         //sort
@@ -55,6 +51,8 @@ public class Methods {
         //Max Element
         Integer maxElement = integerList.stream().max((x, y) -> x.compareTo(y)).get();
         System.out.println(maxElement);
+
+
     }
 
 }

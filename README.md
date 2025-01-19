@@ -27,3 +27,5 @@ two types
                 .reduce(0, (x, y) -> x + y);
         System.out.println("resultsum " + resultsum);
 
+		
+

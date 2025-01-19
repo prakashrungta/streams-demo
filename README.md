@@ -3,14 +3,16 @@ ou# streamsDemo
 **//Learn Basics from it**
 https://www.youtube.com/watch?v=CwOfjXPL6-Q&t=29s
 
-**//Learn (streams )Reduce from it**
+**//Learn (streams )Reduce from it** [ From 21 minutes onwards ]
 https://www.youtube.com/watch?v=tklkyVa7KZo
-
-**//Paralle Streams from here**
-https://chatgpt.com/c/678cc216-11b0-800a-9d89-17ba51d8ef1d
 
 **//Learn flatmap from here**
 https://www.youtube.com/watch?v=CwvlS3ViGFQ
+
+**//Parallel Streams from here**
+https://chatgpt.com/c/678cc216-11b0-800a-9d89-17ba51d8ef1d
+
+
 
 **//Interview Q**
 https://medium.com/javarevisited/must-know-java-8-stream-interview-questions-for-java-developers-series-16-9d0579623a70

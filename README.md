@@ -11,19 +11,21 @@ two types
     filter : use it when you  need to filter soemthing 
     map     :use it when you need to do some operations in the stream
             : You will need to use predicate ( prefer lambda  returns boolean 
-**
-//Taking a list , sorting it  , filtering for the even nos ,squaring it , and then reducing ( summing) it up    ** 
+	    
+
+//Taking a list , sorting it  , filtering for the even nos ,squaring it , and then reducing ( summing) it up
         int result = list.stream()
                 .sorted()
-                .**filter**(n -> n % 2 == 0)
+                .filter(n -> n % 2 == 0)
                 .map(n -> n * n)
                 .reduce(0, (c, e) -> c + e);
         System.out.println("sum of the list " + result);
 
-**//Taking a list and squaring (without filtering and then obtaining the sum    **    
+
+//Taking a list and squaring (without filtering and then obtaining the sum 
         int resultsum = list.stream()
                 .sorted()
-                .**map**(n -> n * n)
+                .map(n -> n * n)
                 .reduce(0, (x, y) -> x + y);
         System.out.println("resultsum " + resultsum);
 

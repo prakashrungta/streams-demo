@@ -3,6 +3,9 @@ ou# streamsDemo
 **//Learn Basics from it**
 https://www.youtube.com/watch?v=CwOfjXPL6-Q&t=29s
 
+** // lambda **
+https://www.youtube.com/watch?v=E10Q6-nWO9g
+
 **//Learn (streams )Reduce from it** [ From 21 minutes onwards ]
 https://www.youtube.com/watch?v=tklkyVa7KZo
 
